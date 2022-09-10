@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scss.css">
+    <title>JavaScript API Test</title>
+</head>
+<body>
+    <header>
+        <div class="insideheader">
+            <h1>Quesito</h1>
+        </div>
+    </header>
+    <div class="light">
+        <button onclick="BulbTurn()"><img src="src/Bulb.png" alt=""></button>
+    </div>
+    <div class="statsGame">
+        <div class="stat">
+            <img src="src/Food.png" alt="">
+            <h4><span id="foodStat">0/3</span></h4>
+        </div>
+        <div class="stat">
+            <img src="src/Water.png" alt="">
+            <h4><span id="waterStat">0/3</span></h4>
+        </div>
+        <div class="stat">
+            <img src="src/Energy.webp" alt="">
+            <h4><span id="sleepStat">0/3</span></h4>
+        </div>
+    </div>
+    <section class="Character">
+        <button onclick="PlaySound()"><img id="GoatImg" src="src/Goat.png" alt=""></button>
+    </section>
+    <footer>
+        <div class="ActionBar">
+            <div class="ButtonAction">
+                <button onclick="ChangeFood(false)"><img src="src/ArrowLeft.png" alt=""></button>
+            </div>
+            <div class="ButtonAction">
+                <button onclick="Feed()"><img id="FoodImage" src="" alt=""></button>
+                <h3><span id="FoodName"></span></h3>
+            </div>
+            <div class="ButtonAction">
+                <button onclick="ChangeFood(true)"><img src="src/ArrowRight.png" alt=""></button>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

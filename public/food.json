@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "Carrot",
+        "Image": "src/Carrot.png",
+        "Type": "food"
+    },
+    {
+        "Name": "Water",
+        "Image": "src/Water.png",
+        "Type": "water"
+    }
+]

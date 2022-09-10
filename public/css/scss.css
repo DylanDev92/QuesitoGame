@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url("/src/Background.jpg");
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(131, 79, 55, 0.4);
+  color: white;
+  -webkit-box-shadow: 0em 0.2em 2em black;
+          box-shadow: 0em 0.2em 2em black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.light {
+  position: fixed;
+  border-radius: 2em;
+  top: 8em;
+  right: 1em;
+  -webkit-box-shadow: 0em 0.1em 1em black;
+          box-shadow: 0em 0.1em 1em black;
+  border-radius: 2em;
+  background-color: rgba(131, 79, 55, 0.4);
+}
+
+.light button {
+  background: no-repeat;
+  cursor: pointer;
+  border: none;
+}
+
+.light button img {
+  padding-top: 1em;
+  width: 50px;
+}
+
+.statsGame {
+  margin: 1em;
+  position: fixed;
+  padding: 0.5em;
+}
+
+.statsGame .stat {
+  margin-top: 1em;
+  -webkit-box-shadow: 0em 0.1em 1em black;
+          box-shadow: 0em 0.1em 1em black;
+  border-radius: 2em;
+  background-color: rgba(131, 79, 55, 0.4);
+  text-align: center;
+}
+
+.statsGame .stat h4 {
+  color: white;
+  margin: 0em;
+}
+
+.statsGame .stat img {
+  width: 50px;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.Character {
+  padding-top: 25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Character button {
+  background-color: blue;
+  background: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.Character img {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+footer {
+  background-color: rgba(131, 79, 55, 0.596);
+  -webkit-box-shadow: 0em 0.2em 2em black;
+          box-shadow: 0em 0.2em 2em black;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+footer .ActionBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .ActionBar .ButtonAction {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+footer .ActionBar .ButtonAction h3 {
+  margin: 0;
+  color: white;
+}
+
+footer .ActionBar .ButtonAction button {
+  background: no-repeat;
+  cursor: pointer;
+  border: none;
+}
+
+footer .ActionBar .ButtonAction button img {
+  padding-top: 1em;
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=scss.css.map */

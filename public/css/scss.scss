@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/src/Background.jpg');
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+header {
+    background-color: rgba(131, 79, 55, 0.4);
+    color: white;
+    box-shadow: 0em 0.2em 2em black;
+    justify-content: center;
+    h1 {
+        text-align: center;
+    }
+}
+
+.light{
+    position: fixed;
+    border-radius: 2em;
+    top: 8em;
+    right: 1em;
+    box-shadow: 0em 0.1em 1em black;
+    border-radius: 2em;
+    background-color: rgba(131, 79, 55, 0.4);
+    
+    button {
+        background: no-repeat;
+        cursor:pointer;
+        border:none;
+        img {
+            padding-top: 1em;
+            width:50px;
+        }
+    }
+}
+
+.statsGame {
+    margin: 1em;
+    position: fixed;
+    padding: 0.5em;
+    .stat {
+        margin-top: 1em;
+        box-shadow: 0em 0.1em 1em black;
+        border-radius: 2em;
+        background-color: rgba(131, 79, 55, 0.4);
+        text-align: center;
+        h4 {
+            color: white;
+            margin: 0em;
+        }
+        img {
+            width: 50px;
+            margin: 0;
+            margin-top: 0.5em;
+        }
+    }
+}
+
+
+.Character {
+    padding-top: 25em;
+    display: flex;
+    flex-direction: column;
+    button {
+        background-color: blue;
+        background: no-repeat;
+        border:none;
+        cursor:pointer;
+    }
+    img {
+        margin: 0 auto;
+        display: flex;
+        filter:brightness(90%)
+    }
+}
+
+
+footer {
+    background-color: rgba(131, 79, 55, 0.596);
+    box-shadow: 0em 0.2em 2em black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 1em;
+    .ActionBar {
+        display: flex;
+        justify-content: center;
+        .ButtonAction {
+            margin-left: 1em;
+            margin-right: 1em;
+            text-align: center;
+            h3 {
+                margin: 0;
+                color: white;
+            }
+            button {
+                background: no-repeat;
+                cursor:pointer;
+                border:none;
+                img {
+                    padding-top: 1em;
+                    width:100px;
+                    height:100px;
+                }
+            }
+        }
+    }
+}
